@@ -1,0 +1,35 @@
+.cabecalho 
+{
+    color: rgba(255, 255, 255, 0.697);
+    padding: 0 3rem;
+}
+
+.cabecalho__navegacao 
+{
+    display: flex;
+}
+
+.cabecalho__navegacao__logo
+{
+    width: 5.8rem;
+    margin-right: 2rem;
+}
+
+.cabecalho__navegacao__lista-esquerda
+{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.cabecalho__navegacao__lista-esquerda__item
+{
+    margin-right: 1rem;
+}
+
+.cabecalho__navegacao__lista-esquerda__item__ancora
+{
+    text-decoration: none;
+    color: var(--cor-padrao);
+    font-weight: var(--peso-padrao);
+}
